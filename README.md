@@ -1,8 +1,4 @@
 # Personalized Thought Chart
-<<<<<<< HEAD
-The R and Matlab scripts used to create a personalized Thought Chart
-=======
->>>>>>> Inilization
 
 The scripts and functions here were used to do the analysis in the paper here: https://doi.org/10.1101/2020.06.19.162461
 
