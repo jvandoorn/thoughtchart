@@ -19,7 +19,7 @@ We tried to keep the preprocessing as simple as possible, in order to automate t
 1. Reference to the channel average (do this after every step).
 2. Down-sample to 512 Hz.
 3. High-pass filter at 0.5 Hz to remove motion artifacts.
-4. Use `clean_rawdata` to automatic reject artifacts using ASR [@chang_evaluation_2018-1].
+4. Use `clean_rawdata` to automatic reject artifacts using [ASR](https://sccn.ucsd.edu/wiki/Artifact_Subspace_Reconstruction_(ASR)).
 5. Quality control check.
 
 The first four steps can be done using the `preprocess_eeg_files.m` script with minor edits to reflect your local file ecosystem.
